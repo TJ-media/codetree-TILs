@@ -1,6 +1,8 @@
 a, b = map(int, input().split())
 
 def sosu(c):
+    if c == 1:
+        return False
     for i in range(2, c):
         if c % i == 0:
             return False
